@@ -77,6 +77,8 @@ const EditarPerfil = () => {
                         <div className="my-3">
                             <label className="uppercase font-bold text-gray-600">Teléfono</label>
                             <input type="text" 
+                                //pattern="[0-9]{9}"
+                                //title="Three letter country code"
                                 className="border bg-gray-50 w-full p-2 mt-5 rounded-lg"
                                 name="telefono"
                                 value={perfil.telefono || ''}
